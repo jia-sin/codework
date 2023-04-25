@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+text {
+  font-size: 18px;
+  font-family: 'Share Tech', sans-serif;
+}
+
+.menu-container {
+	position: fixed;
+  top: 10px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+label, select {
+	font-size: 20px;
+  font-weight: bold;
+  font-family: 'Share Tech', sans-serif;
+}
+
+select {
+	width: 100px;
+}
